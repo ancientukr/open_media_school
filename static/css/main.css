@@ -1,0 +1,111 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* index */
+
+video {
+    min-height: 100vh;
+    min-width: 100vm;
+    height: auto;
+    width: auto;
+    z-index: -10;
+    opacity: 0.5;
+}
+
+.block-video {
+    border: 1px solid;
+    background-color: black;
+
+}
+.logo {
+    position: absolute;
+    top: 5em;
+    left: 5em;
+    opacity: 0.6;
+    width: 30em;
+    height: 10em;
+}
+
+.logo .logo-img {
+    background: url("../image/logo_mono.png") no-repeat center;
+    background-size: contain;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    min-height: 10em;
+    min-width: 10em;
+    float:left;
+    margin-bottom: 2em;
+}
+
+.logo .logo-text {
+    opacity: 1;
+    color: white;
+    font-size: 1.5em;
+    vertical-align: bottom;
+
+}
+.logo .big-text-logo {
+    font-size: 3em;
+    vertical-align: bottom;
+
+}
+
+.some-text {
+    background-color: silver;
+    height: 100vh;
+    width: 100%;
+    border: 1px solid;
+}
+
+.nav-menu {
+    position: absolute;
+    right: 5em;
+    top: 7em;
+    opacity: 1;
+}
+
+
+.nav-menu li {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 1.6em;
+    display: inline-block;
+    margin-left: 1.7em;
+}
+
+.nav-menu a {
+    color: white;
+
+}
+
+.nav-menu a:hover {
+    text-decoration: none;
+    color: silver;
+}
+
+.block-video .slogan {
+    position: absolute;
+    bottom: 5em;
+    left: 20em;
+    font-size: 2.5em;
+    color: white;
+    margin-right: 5em;
+}
+.slogan .autor {
+    font-style: italic;
+}
+
+.block-video .chevron {
+    position: absolute;
+    bottom: 1em;
+    left: 45%;
+    background: url("../image/Chevron_Down.png") no-repeat center;
+    min-width: 5em;
+    min-height: 5em;
+    background-size: contain;
+     -webkit-filter: invert(100%);
+    filter: invert(100%);
+    opacity: 0.7;
+}

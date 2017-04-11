@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+
+{% block body_block %}
+
+
+    <div class="block-video">
+        <video autoplay="autoplay" loop="loop">
+            <source src="{% static 'video/video1.mp4' %}" type="video/mp4">
+        </video>
+        <div class="logo">
+            <div class="logo-img"></div>
+            <div class="logo_text">
+                <div class="logo-text">ДЕТСКАЯ МЕДИА-ШКОЛА</div>
+                <div class="logo-text big-text-logo">ПОЧЕМУЧКА</div>
+            </div>
+        </div>
+        <nav class="nav-menu">
+            <ul class="">
+                <li class=""><a href="#">МЫ</a></li>
+                <li class=""><a href="#">КУРСЫ</a></li>
+                <li class=""><a href="#">КОМАНДА</a></li>
+                <li class=""><a href="#">ОТЗЫВЫ</a></li>
+                <li class=""><a href="#">ДОСТИЖЕНИЯ ВОСПИТАННИКОВ</a></li>
+                <li class=""><a href="#">КОНТАКТЫ</a></li>
+                <li class=""><a href="#">СМИ О НАС</a></li>
+            </ul>
+        </nav>
+
+        <div class="slogan">
+            <p>«Вам не удастся никогда создать мудрецов, если будете убивать в детях шалунов»</p>
+            <p class="text-right autor">Жан-Жак Руссо</p>
+        </div>
+        <div class="chevron"></div>
+    </div>
+
+    <div class="some-text">
+
+    </div>
+
+{% endblock %}
