@@ -25,7 +25,7 @@ SECRET_KEY = 'azpnnr9gl96ds+!6qnzq3)(-hkacutb!=h0oi)3ja)zpbrvxm2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mediaschool.pythonanywhere.com', 'http://127.0.0.1:8000']
 
 
 # Application definition
